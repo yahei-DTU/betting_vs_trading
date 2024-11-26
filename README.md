@@ -1,1 +1,1 @@
-# bidding_vs_trading
+# betting_vs_trading
