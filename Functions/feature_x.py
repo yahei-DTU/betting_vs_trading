@@ -11,7 +11,8 @@ def feature_x(data_hist):
     return (df) x: feature vector
     """
     # Read in the top features from the specified files
-    os.chdir("C:/Users/yahei/OneDrive - Danmarks Tekniske Universitet/Code/PtX_model")
+    cwd = os.path.dirname(os.path.dirname(__file__))
+    os.chdir(cwd)
     top_features_ridgecv = pd.read_csv('Results/Feature selection/top_features_RidgeCV.txt', header=None).squeeze().tolist()
     #top_features_shap = pd.read_csv('Results/Feature selection/top_features_SHAP.txt', header=None).squeeze().tolist()
 

@@ -1,3 +1,5 @@
+# Code taken from Raheli et al. (2023): A conic model for electrolyzer scheduling
+
 import numpy as np
 from scipy.optimize import fsolve
 import matplotlib.pyplot as plt 
