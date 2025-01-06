@@ -1,6 +1,6 @@
 ## Betting vs. Trading: Learning a Linear Decision Policy for Selling Wind Power and Hydrogen
 
-This repository contains all data and code to run the same model simulations and analysis as presented in the article ["Betting vs. Trading: Learning a Linear Decision Policy for Selling Wind Power and Hydrogen"](https://arxiv.org/abs/2412.18479) by Heiser et al. (2024).
+This repository contains all data and code to run the same model simulations and analysis as presented in the article "Betting vs. Trading: Learning a Linear Decision Policy for Selling Wind Power and Hydrogen" by [Heiser et al. (2024)](https://arxiv.org/abs/2412.18479).
 
 The required packages are `time`, `numpy`, `pandas`, `os`, `matplotlib`and `gurobipy`.
 
