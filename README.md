@@ -30,5 +30,5 @@ The required packages are `time`, `numpy`, `pandas`, `os`, `matplotlib`and `guro
   
 - `Plots/`: Contains the plots used in the paper.
 
-- `Results/`: Contains the model output files used for the analysis.
+- `Results/`: Contains the model output files used for the analysis. The subfolders are used by the analysis files.
 
