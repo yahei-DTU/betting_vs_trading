@@ -280,10 +280,3 @@ class Model:
             print("Var: ", self.results.VaR)
             print("CVaR: ", self.results.CVaR)
             print("max p_IM_ABS: ", np.max(self.results.p_IM_abs))
-
-if __name__ == "__main__":
-    cwd = os.path.dirname(os.path.dirname(__file__))
-    os.chdir(cwd)
-    # test = Model()
-    # test.build_model()
-    # test.run_model()
