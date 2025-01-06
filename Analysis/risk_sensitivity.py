@@ -19,7 +19,8 @@ mpl.rcParams.update({
 })
 c= ["c","y","m"]
 
-os.chdir("C:/Users/yahei/OneDrive - Danmarks Tekniske Universitet/Code/PtX_model")
+cwd = os.path.dirname(os.path.dirname(__file__))
+os.chdir(cwd)
 save_fig = True
 data_files = [f for f in os.listdir('Results/Risk sensitivity') if f.endswith('.csv')]
 data = {}
