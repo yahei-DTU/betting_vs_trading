@@ -52,7 +52,7 @@ def import_data(data_param,model_param):
 
 
     for t in range(24,len(data)):
-        E_RE_day_before[t] = data["E_RE"].iloc[t-24]
+        E_RE_day_before[t] = data["production_RE"].iloc[t-24]
         lambda_RE_day_before[t] = data["lambda_DA_RE"].iloc[t-24]
         lambda_IM_day_before[t] = data["lambda_IM"].iloc[t-24]
         if t % 24 == 23:
