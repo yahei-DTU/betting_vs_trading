@@ -3,4 +3,4 @@ Onshore DK1
 Offshore DK1
 production_FC
 Offshore DK2
-E_RE_day_before_mean
+forward_FC
